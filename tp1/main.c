@@ -23,6 +23,7 @@ int main()
 
     do
     {
+        printf("----------CALCULADORA------------\n\n");
         if(banderaA==0)
         {
             printf("1)ingrese el primer operando A=X.\n");
@@ -46,6 +47,7 @@ int main()
         printf("5)Salir.\n");
         printf("ingrese un opcion: ");
         scanf("%d", &opcion);
+        system("cls");
 
 
 
