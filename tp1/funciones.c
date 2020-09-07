@@ -24,14 +24,14 @@ int multiplicar(int x, int y)
 
 float dividir(int x, int y)
 {
-    int div;
-    div=x/y;
+    float div;
+    div=(float)x/y;
 
     return div;
 }
 int factorial(int x)
 {
-    int fact = 1;
+    float fact = 1;
 
     for(int i=1; i<=x; i++)
     {
