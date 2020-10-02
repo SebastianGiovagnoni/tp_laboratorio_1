@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1601404987 source:c:\users\cva\documents\++prog-lab-1\trabajopractico2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleadous.h"
+
+1601404987 c:\users\cva\documents\++prog-lab-1\trabajopractico2\empleadous.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1601470962 source:c:\users\cva\documents\++prog-lab-1\trabajopractico2\empleadous.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleadous.h"
+
+1601673788 source:c:\users\cva\documents\++prog-lab-1\tp2\empleadous.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleadous.h"
+
+1601673788 c:\users\cva\documents\++prog-lab-1\tp2\empleadous.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1601664934 source:c:\users\cva\documents\++prog-lab-1\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleadous.h"
+

@@ -24,6 +24,8 @@ void printListEmployees(eEmployees list[], int len)
     int i;
     eEmployees aux;
 
+    printf("*****   Nombre|          Apellido|        Salario|       Sector|   *****\n\n");
+
     for(i=0; i<len; i++)
     {
         if(list[i].isEmpty!=1)
@@ -33,7 +35,6 @@ void printListEmployees(eEmployees list[], int len)
             {
                 if(list[i].isEmpty!=1)
                 {
-                    printf("*****   Nombre          Apellido        Salario       Sector   *****\n\n");
                     printEmployee(list[i]);
                 }
             }
@@ -74,6 +75,9 @@ int findEmployeeById(eEmployees list[],int len)
 void addEmployee(eEmployees list[],int len)
 {
     int i;
+    char nombre[51];
+    char apellido[51];
+
 
     i=findEmployeeById(list,len);
 
@@ -153,6 +157,7 @@ void modifyEmployee(eEmployees list[],int len)
                     printEmployee(list[i]);
 
                     option=getInt("Escoja el campo a modificar:\n1.Nombre\n2.Apellido\n3.Salario\n4.Sector\n5.Salir\nElija una opcion: ");
+                    system("cls");
                     switch(option)
                     {
                     case 1:
@@ -236,4 +241,5 @@ void orderEmployees(eEmployees list[],int len,eEmployees aux)
         }
     }
 }
+
 
